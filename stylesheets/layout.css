@@ -1,6 +1,9 @@
-.links{
-	border-radius: 5px;
-	padding: 0px 35px;
-	background: rgba(210, 210, 210, 0.7);
-	margin: 5px 0;
+hr	{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
