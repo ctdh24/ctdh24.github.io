@@ -1,11 +1,17 @@
 <!doctype html>
 <html>
-  <head>
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Completed Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+    
+    <title>Calvin Huynh&#39;s repository</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/carousel.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
 
@@ -18,8 +24,51 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--custom styles based off of the default carousel page-->
+    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">GitHub Pages</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="comp.html">Featured Projects</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Stuff to be added in the future</li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Mobile Games</li>
+                <li><a href="#">Fate:Grand Order</a></li>
+                <li><a href="#">Brave Frontier</a></li>
+                <li><a href="#">Final Fantasy:Brave Exvius</a></li>
+                <li><a href="#">Puzzles and Dragons</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Computer Games</li>
+                <li><a href="#">Dungeon Fighter Online</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+          -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
     <div class="wrapper">
        <header>
         <h1>Calvin Huynh&#39;s repository</h1>
@@ -62,6 +111,8 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
   </body>
 </html>
