@@ -7,3 +7,37 @@ hr	{
     border-style: inset;
     border-width: 2px;
 }
+
+.post{
+	float: right;
+    border-radius: 2px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    background: rgba(210, 210, 210, 0.01);
+    margin: 10px 0;
+    box-shadow: 0 0 2px #6C6C6C;
+    text-align: left;
+}
+
+img{
+	float: right;
+    border-radius: 2px;
+    padding: 10px;
+    background: rgba(210, 210, 210, 0.01);
+    margin-left: 10px;
+    box-shadow: 0 0 2px #6C6C6C;
+    text-align: left;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.textbox{
+	padding-top: 20px;
+	display: inline;
+}
