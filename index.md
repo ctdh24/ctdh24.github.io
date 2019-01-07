@@ -1,8 +1,3 @@
-### Welcome to my repository!
-If you've made it to this site, that must mean that you wan to look at some of my projects. Most of the stuff here are things that I have done or are things that I still develop.
-
-I will be editing this site in the future as its my first time using Git pages, so stay tuned for more!
-
 ### Designer Templates
 We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
 
